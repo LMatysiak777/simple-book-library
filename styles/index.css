@@ -1,0 +1,55 @@
+body{
+font-family:'CourierNew',Courier,monospace;
+}
+
+h1{
+text-align:center;
+}
+
+#div-add-book{
+background-color: lightgrey;
+margin:auto;
+justify-content: center;
+align-items: center;
+max-width: 50%;
+display:flex;
+flex-direction:column;
+width:auto;
+border:black solid 1px;
+text-align:center;
+}
+
+#div-add-book {
+    min-width: 50%;;
+}
+
+#div-priority-radios {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    min-width: 50%;
+}
+
+#div-priority-radios input{
+    max-width: 10px;
+}
+
+button{
+margin:10px;
+background-color:lightgreen;
+border:black solid 1px;
+}
+
+table{
+border-spacing:0;
+margin:auto;
+padding:0;
+
+}
+
+table th,td{
+padding:5px;
+margin:0;
+border:black solid 1px;
+word-wrap: normal;
+}

@@ -1,0 +1,142 @@
+books = `[
+      {
+      "TITLE": "The War of the Worlds",
+      "AUTHOR": "H. G. Wells",
+      "PRIORITY": 1,
+      "CATEGORY": "Science Fiction",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Hamlet",
+      "AUTHOR": "William Shakespeare",
+      "PRIORITY": 2,
+      "CATEGORY": "Drama",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "The Crucible",
+      "AUTHOR": "Arthur Miller",
+      "PRIORITY": 2,
+      "CATEGORY": "Drama",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Contact",
+      "AUTHOR": "Carl Sagan",
+      "PRIORITY": 1,
+      "CATEGORY": "Science Fiction",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "The Cat in the Hat",
+      "AUTHOR": "Dr. Seuss",
+      "PRIORITY": 3,
+      "CATEGORY": "Kids",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Dune",
+      "AUTHOR": "Frank Herbert",
+      "PRIORITY": 4,
+      "CATEGORY": "Science Fiction",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Harry Potter and the Cursed Child",
+      "AUTHOR": "J. K. Rowling",
+      "PRIORITY": 4,
+      "CATEGORY": "Kids",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Winnie-the-Pooh",
+      "AUTHOR": "A. A. Milne",
+      "PRIORITY": 1,
+      "CATEGORY": "Kids",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Matilda",
+      "AUTHOR": "Roald Dahl",
+      "PRIORITY": 2,
+      "CATEGORY": "Kids",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Antigone",
+      "AUTHOR": "Sophocles",
+      "PRIORITY": 3,
+      "CATEGORY": "Drama",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Dont Let the Pigeon Drive the Bus!",
+      "AUTHOR": "Mo Willems",
+      "PRIORITY": 4,
+      "CATEGORY": "Kids",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Fahrenheit 451",
+      "AUTHOR": "Ray Bradbury",
+      "PRIORITY": 2,
+      "CATEGORY": "Science Fiction",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "The Polar Express",
+      "AUTHOR": "Chris Van Allsburg",
+      "PRIORITY": 1,
+      "CATEGORY": "Kids",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "The Importance of Being Earnest",
+      "AUTHOR": "Oscar Wilde",
+      "PRIORITY": 5,
+      "CATEGORY": "Drama",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Solaris",
+      "AUTHOR": "Stanislaw Lem",
+      "PRIORITY": 2,
+      "CATEGORY": "Science Fiction",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "To Kill a Mockingbird",
+      "AUTHOR": "Harper Lee",
+      "PRIORITY": 3,
+      "CATEGORY": "Drama",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Neuromancer",
+      "AUTHOR": "William Gibson",
+      "PRIORITY": 2,
+      "CATEGORY": "Science Fiction",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Alice's Adventures in Wonderland",
+      "AUTHOR": "Lewis Carroll",
+      "PRIORITY": 1,
+      "CATEGORY": "Kids",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "Frankenstein",
+      "AUTHOR": "Mary Shelley",
+      "PRIORITY": 3,
+      "CATEGORY": "Science Fiction",
+      "DATE": "12/2/2021"
+    },
+    {
+      "TITLE": "A Christmas Carol",
+      "AUTHOR": "Charles Dickens",
+      "PRIORITY": 1,
+      "CATEGORY": "Drama",
+      "DATE": "12/2/2021"
+    }
+   ]`
