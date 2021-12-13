@@ -8,7 +8,7 @@ var bookList = [];
 
 function checkLocalStorage(){
     if(!Boolean(JSON.parse(localStorage.getItem('bookList')))){
-    let initialBookList = JSON.parse(books);
+    const initialBookList = JSON.parse(books);
     bookList = Array.from(initialBookList);
     localStorage.setItem("bookList",JSON.stringify(bookList))}
     else {bookList=JSON.parse(localStorage.getItem('bookList'))}
@@ -16,7 +16,7 @@ function checkLocalStorage(){
 }
 
 function populateBooksTable(){
-    let table = document.querySelector("#table-books")
+    const table = document.querySelector("#table-books")
     table.innerHTML="";
     for (let i=0;i<bookList.length;i++){
     createSingleRow(bookList[i]);
@@ -24,9 +24,9 @@ function populateBooksTable(){
 }
 
 function createSingleRow(book){
-    let table = document.querySelector("#table-books");
-    let newRow = document.createElement("tr");
-    let bookData = Object.entries(book);
+    const table = document.querySelector("#table-books");
+    const newRow = document.createElement("tr");
+    const bookData = Object.entries(book);
     bookData.forEach(x=>{
         newRow.appendChild(createSingleCell(x[1]))
     })
@@ -34,14 +34,14 @@ function createSingleRow(book){
 }
 
 function createSingleCell(value){
-    let newCell = document.createElement("td");
+    const newCell = document.createElement("td");
     newCell.innerHTML=value;
     return newCell;
 }
 
 function addNewBook(title,author,priority,category){
-    let newBook = {};
-    let nowDate = new Date();
+    const newBook = {};
+    const nowDate = new Date();
     newBook.TITLE=title;
     newBook.AUTHOR=author;
     newBook.PRIORITY=priority;
@@ -55,18 +55,17 @@ function addNewBook(title,author,priority,category){
 function validateForm() {
     let valid = true;
     let errorMessage ="";
-    let title = INPUT_TITLE.value;
-    let author = INPUT_AUTHOR.value;
+    const title = INPUT_TITLE.value;
+    const author = INPUT_AUTHOR.value;
     let priorityChecked = false;
     for (let i=0;i<RADIOS_PRIORITY.length;i++) {if (RADIOS_PRIORITY[i].checked) priorityChecked=true;}
-    let category = SELECT_CATEGORY[0].value;
+    const category = SELECT_CATEGORY[0].value;
 
     if (title.length<1) {valid=false;errorMessage+="Title name must be at least 1 character long\n"};
     if (author.length<3) {valid=false;errorMessage+="Author must be at least 3 characters long\n"};
     if (!priorityChecked) {valid=false;errorMessage+="Please select one priority\n"}
     else priority = document.querySelector('input[type="radio"]:checked').value;
     if (SELECT_CATEGORY[0][0].selected) {valid=false;errorMessage+="Please select one category\n"}
-   
     if(!valid) return alert(errorMessage);
     if(confirm(`Please confirm that you want to add this book: \nTITLE: ${title}\nAUTHOR: ${author}\nPRIORITY: ${priority}\nCATEGORY: ${category}`))
     clearForm();

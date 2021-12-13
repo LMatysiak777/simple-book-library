@@ -1,36 +1,34 @@
 body{
 font-family:'CourierNew',Courier,monospace;
+font-size: large;
 }
 
 h1{
 text-align:center;
 }
 
-#div-add-book{
+.div-add-book{
 background-color: lightgrey;
 margin:auto;
 justify-content: center;
 align-items: center;
+min-width: 50%;;
 max-width: 50%;
 display:flex;
 flex-direction:column;
 width:auto;
 border:black solid 1px;
 text-align:center;
-}
+} 
 
-#div-add-book {
-    min-width: 50%;;
-}
-
-#div-priority-radios {
+.div-priority-radios {
     justify-content: center;
     display: flex;
     flex-direction: row;
     min-width: 50%;
 }
 
-#div-priority-radios input{
+.div-priority-radios input{
     max-width: 10px;
 }
 
@@ -45,6 +43,10 @@ border-spacing:0;
 margin:auto;
 padding:0;
 
+}
+
+.table-row-header {
+    background-color: lightgrey;
 }
 
 table th,td{

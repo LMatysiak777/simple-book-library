@@ -12,16 +12,16 @@
 <body onload="checkLocalStorage()">
     <h1>SIMPLE BOOK LIBRARY</h1>
     
-    <div id="div-add-book"><h3>Add a new book:</h3>
+    <div class="div-add-book"><h3>Add a new book:</h3>
     Title<input id="input-title" type="text"><br>
     Author<input id="input-author" type="text"><br>
-    <div id="div-priority-radios">Read Priority
+    <div class="div-priority-radios">Read Priority
         1<input name="priority" id="radio-priority-1" type="radio" value="1">
         2<input name="priority" id="radio-priority-2" type="radio" value="2">
         3<input name="priority" id="radio-priority-3" type="radio" value="3">
         4<input name="priority" id="radio-priority-4" type="radio" value="4">
         5<input name="priority" id="radio-priority-5" type="radio" value="5"></div><br>
-    <div id="div-category-droplist">Category
+    <div class="div-category-droplist">Category
         <select id="input-category">
             <option id="droplist-category-1" type="option" selected disabled>---select category---</option>
             <option id="droplist-category-1" type="option" value="Science Fiction">Science Fiction</option>
@@ -33,7 +33,7 @@
     <div>
     <table>
         <thead>
-            <tr>
+            <tr class="table-row-header">
                 <th>Title</th>
                 <th>Author</th>
                 <th>Priority</th>
